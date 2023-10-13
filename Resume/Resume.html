@@ -1,0 +1,705 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Personal Portfolio</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.bundle.min.js"></script>
+    <script src="https://kit.fontawesome.com/997a875e35.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
+
+    <style>
+        *{
+padding: 0;
+margin: 0;
+box-sizing: border-box;
+scroll-behavior: smooth;
+}
+
+.nav-link:hover {
+    background-color: rgb(233, 20, 109);
+}
+/* ---------Main------- */
+.mainpage {
+    background: url(Deri\ b&w.jpg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 100%;
+    height:85vh;
+}
+
+.mainpage h3 {
+    font-size: 45px;
+    font-weight: 700;
+    margin-left: 200px;
+    
+}
+
+.mainpage h6 {
+    color: rgb(31, 166, 184);
+    font-size: 20px;
+    text-transform: uppercase;
+    line-height: 1.5;
+    border-bottom: 3px solid rgb(233, 20, 109);
+    width: 60%;
+    margin-left: 200px;
+}
+
+.mainpage .bt1 {
+    height: 40px;
+    width: 120px;
+    background-color: rgb(233, 20, 109);
+    color: aliceblue;
+    outline: none;
+    border: none;
+    font-weight: bold;
+    border-radius: 5px;
+    margin-left: 200px;
+}
+
+.mainpage .bt1:hover {
+    background-color: rgb(162, 16, 77);
+    transition: 0.5s;
+}
+
+.mainpage .bt2 {
+    height: 40px;
+    width: 120px;
+    background-color: transparent;
+    color: rgb(233, 20, 109);
+    outline: none;
+    border: 1px solid rgb(233, 20, 109);
+    font-weight: bold;
+    border-radius: 5px;
+}
+
+.mainpage .bt2:hover {
+    background-color: rgb(233, 20, 109);
+    transition: 0.5s;
+    color: aliceblue;
+}
+/* ------About------ */
+
+.about img {
+    height: 50vh;
+    -webkit-box-shadow: -38px -15px 73px -16px rgba(0,0,0,0.75);
+-moz-box-shadow: -38px -15px 73px -16px rgba(0,0,0,0.75);
+box-shadow: -38px -15px 73px -16px rgba(0,0,0,0.75);
+}
+.about .h1{
+    font-size: 20px;
+    font-weight: 900;
+}
+
+.progress {
+    background-color: rgb(225, 218, 218);
+    justify-content: flex-start;
+    border-radius: 50px;
+    align-items: center;
+    position: relative;
+    display: flex;
+    height: 25px;
+    width: 100%;
+    
+    -webkit-box-shadow: inset 2px 3px 86px -37px rgba(0,0,0,0.75);
+    -moz-box-shadow: inset 2px 3px 86px -37px rgba(0,0,0,0.75);
+    box-shadow: inset 2px 3px 86px -37px rgba(0,0,0,0.75);
+}
+.pro-value1{
+    animation: load1 3s normal forwards;
+    border-radius:50px ;
+    background-color: black;
+    height: 25px;
+    width: 0;
+}
+.pro-value2{
+    animation: load2 3s normal forwards;
+    border-radius:50px ;
+    background-color: black;
+    height: 25px;
+    width: 0;
+}
+.pro-value3{
+    animation: load3 3s normal forwards;
+    border-radius:50px ;
+    background-color: black;
+    height: 25px;
+    width: 0;
+}
+.pro-value4{
+    animation: load4 3s normal forwards;
+    border-radius:50px ;
+    background-color: black;
+    height: 25px;
+    width: 0;
+}
+.progress p{
+    color: white;
+    padding: 5px;
+}
+@keyframes load1{
+    0%{
+        width: 0;
+    }
+    100%{
+        width:95%;
+    }
+}
+@keyframes load2{
+    0%{
+        width: 0;
+    }
+    100%{
+        width:98%;
+    }
+}
+@keyframes load3{
+    0%{
+        width: 0;
+    }
+    100%{
+        width:75%;
+    }
+}
+@keyframes load4{
+    0%{
+        width: 0;
+    }
+    100%{
+        width:50%;
+    }
+}
+.btn1{
+    height: 40px;
+    width: 140px;
+    outline: none;
+    border: none;
+    background-color: black;
+    color: aliceblue;
+    border-radius: 4px;
+}
+.btn1:hover{
+    background-color: transparent;
+    color: black;
+    border: 1px solid black;
+    transition:0.5s;
+}
+.btn2{
+    height: 40px;
+    width: 140px;
+    outline: none;
+    border: 1px solid black;
+    background-color: aliceblue;
+    color:black;
+    border-radius: 4px;
+}
+.btn2:hover{
+    background-color: black;
+    color: white;
+    border: 1px solid black;
+    transition:0.5s;
+}
+
+.card{
+    
+    -webkit-box-shadow: -81px 58px 124px -110px rgba(0,0,0,0.75);
+-moz-box-shadow: -81px 58px 124px -110px rgba(0,0,0,0.75);
+box-shadow: -81px 58px 124px -110px rgba(0,0,0,0.75);
+}
+.card p{
+    color: gray;
+}
+.circle{
+    height: 70px;
+    width: 70px;
+    background-color: rgb(229, 201, 201);
+    color: black;
+    padding: 12px;
+    font-size: 30px;
+    border-radius: 50%;
+    display: inline-block;
+    margin-bottom: 20px;
+}
+.circle:hover {
+    background-color:rgb(233, 20, 109);
+    color: white;
+    transition: 0.5s;
+}
+
+/* portfolio */
+
+.control ul li{
+    list-style: none;
+    background-color: black;
+    padding: 5px 15px;
+    color: white;
+    display: inline-block;
+    cursor: pointer;
+    letter-spacing: 2px;
+}
+.item{
+    position: relative;
+}
+.item:hover {
+    -webkit-box-shadow: -6px 17px 57px 2px rgba(0,0,0,0.75);
+-moz-box-shadow: -6px 17px 57px 2px rgba(0,0,0,0.75);
+box-shadow: -6px 17px 57px 2px rgba(0,0,0,0.75);
+transition: 0.5s;
+}
+.item span{
+    position: absolute;
+    top: 40%;
+    left: 45%;
+    font-size: 40px;
+    color: black;
+    cursor: pointer;
+    opacity: 0;
+}
+.item:hover span{
+    opacity: 1;
+    transition: 0.5s;
+}
+.item:before{
+    content: "";
+    left: 0;
+    top: 0;
+    height: 100%;
+    width: 100%;
+    background-color: rgba(235, 233, 225, 0.569);
+    opacity: 0;
+    position: absolute;
+}
+.item:hover:before{
+    opacity: 1;
+    transition: 0.3s;
+}
+/* contact */
+
+.contact .btn3{
+    background-color: black;
+    color: white;
+    outline: none;
+    border: none;
+    height: 40px;
+    width: 140px;
+    border-radius: 4px;
+}
+.btn3:hover{
+    background: transparent;
+    color: black;
+    transition: 0.5s;
+    border: 1px solid;
+}
+/* footer */
+
+footer{
+    background-color: black;
+    color: white;
+}
+
+#msg{
+    color: rgb(133, 205, 25);
+    display: block;
+    margin-top: -10px;
+}
+
+/* @media only screen and (max-width: 768px) {
+   
+     
+  } 
+  */
+    </style>
+
+</head>
+
+<body>
+
+ <nav class="navbar  navbar-expand-lg text-uppercase " id="Home">
+        <div class="container">
+            <a class="navbar-brand " href="#">
+                <img src="logo2.png" width="60">
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <div class="navbar-nav ms-auto fw-bold text-center">
+                    <a class="nav-link px-lg-4 rounded active" href="#Home">Home</a>
+                    <a class="nav-link px-lg-4 rounded active" href="#About">About</a>
+                    <a class="nav-link px-lg-4 rounded active" href="#Blog">Blog</a>
+                    <a class="nav-link px-lg-4 rounded active" href="#Features">Features</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+    <section class="mainpage" style="font-style: italic;">
+        <div class="container py-5">
+            <div class="content py-5">
+                <div class="col-lg-6 py-5 ms-auto">
+                    <h3><small>Hello, I'm</small><br>
+                      <span style="font-style:normal">ARUNACHALAM</span>
+                    </h3>
+                    <h6> Full-Stack Devoloper </h6>
+                    <a href="#mywork"><input type="button" data-aos-anchor-placement="bottom-bottom" 
+                        value="My Work" class="bt1 mt-5"></a>
+                    <a href="#Hire"><input type="button" data-aos-anchor-placement="bottom-bottom" 
+                        value="Hire Me" class="bt2 mt-5"></a>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="about py-3" id="About">
+        <div class="container py-5">
+            <div class="row">
+                <div class="col-lg-5">
+                    <img src="ed.png" data-aos="fade-up" class="img-fluid">
+                </div>
+                <div class="col-lg-7 pt-3" data-aos="fade-down">
+                    <h1 data-aos="flip-down">About Me.</h1>
+                    <p>Full-Stack Devoloper</p>
+                    <p class="py-3">
+                        I'm <span class="fw-bold">Arunachalam</span> looking for an entry-level position to kickstart my
+                        career as Front-End Developer. I wish
+                        to work in a dynamic organization that will contribute to my professional and personal growth
+                        while I contribute to the growth of the company as well as engage in opportunities to further
+                        the
+                        company's goals.
+                    </p>
+
+                    <div class="progress">
+                        <div class="pro-value1">
+                            <p>HTML / CSS <span class="text-white float-end">95%</span></p>
+                        </div>
+                    </div>
+                    <div class="progress my-3">
+                        <div class="pro-value2">
+                            <p>BOOTSTRAP<span class="text-white float-end">98%</span></p>
+                        </div>
+                    </div>
+                    <div class="progress my-3">
+                        <div class="pro-value3">
+                            <p>JAVASCRIPT<span class="text-white float-end">75%</span></p>
+                        </div>
+                    </div>
+                    <div class="progress my-3">
+                        <div class="pro-value4">
+                            <p>REACT<span class="text-white float-end">50%</span></p>
+                        </div>
+                    </div>
+                    <a href="/Resume/Arunachalam.pdf" download="Download C.V"><input type="button" class="btn1 mt-5"
+                            data-aos="zoom-in" data-aos-anchor-placement="bottom-bottom" value="Download C.V"></a>
+                    <a href="#Contact"><input type="button" class="btn2 mt-5" data-aos="zoom-out"
+                            data-aos-anchor-placement="bottom-bottom" value="Contact Us"></a>
+
+                </div>
+            </div>
+        </div>
+    </section> 
+
+   <section class="services bg-light" id="mywork">
+        <div class="container">
+            <h1 class="text-center pb-3" data-aos="flip-right">Services</h1>
+            <div class="row ">
+                <div class="col-lg-4 mb-2">
+                    <div class="card text-center py-2" data-aos="fade-down">
+                        <div class="card-body">
+                            <div class="circle">
+                                <span><i class="fas fa-desktop"></i></span>
+                            </div>
+                            <h4 class="fw-bold pb-1">Web Design</h4>
+                            <p>Using HTML and CSS </p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-2">
+                    <div class="card text-center py-2" data-aos="fade-up">
+                        <div class="card-body">
+                            <div class="circle">
+                                <span><i class="fas fa-mobile-android-alt"></i></span>
+                            </div>
+                            <h4 class="fw-bold pb-1">Fully Responsive</h4>
+                            <p>Using Media-Query</p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mb-2">
+                    <div class="card text-center py-2" data-aos="fade-down">
+                        <div class="card-body">
+                            <div class="circle">
+                                <span><i class="fas fa-code"></i></span>
+                            </div>
+                            <h4 class="fw-bold pb-1">Development</h4>
+                            <p>Using JAVASCRIPT</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row pb-3">
+                <div class="col-lg-4 mb-2">
+                    <div class="card text-center py-2" data-aos="flip-down">
+                        <div class="card-body">
+                            <div class="circle">
+                                <span><i class="fas fa-gem"></i></span>
+                            </div>
+                            <h4 class="fw-bold pb-1">Creative design</h4>
+                            <p>Using BOOTSTRAP</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-2">
+                    <div class="card text-center py-2" data-aos="fade-up">
+                        <div class="card-body">
+                            <div class="circle">
+                                <span><i class="fas fa-camera"></i></span>
+                            </div>
+                            <h4 class="fw-bold pb-1">Retina Ready</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 mb-2">
+                    <div class="card text-center py-2" data-aos="flip-down">
+                        <div class="card-body">
+                            <div class="circle">
+                                <span><i class="fas fa-people-carry"></i></span>
+                            </div>
+                            <h4 class="fw-bold pb-1">Branding</h4>
+                            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="portfolio py-5" id="Features">
+        <div class="container text-center py-3">
+            <h1 class="text-center pb-3" data-aos="zoom-in">Portfolio</h1>
+            <div class="control">
+                <ul>
+                    <li class="button active" data-filter="filter" data-aos="fade-up">All</li>
+                    <li class="button active" data-filter="Brand" data-aos="flip-down">Brand</li>
+                    <li class="button active" data-filter="Design" data-aos="flip-down">Design</li>
+                    <li class="button active" data-filter="Graphic" data-aos="fade-up">Graphic</li>
+                </ul>
+            </div>
+            <div class="row pt-3">
+                <div class="col-lg-4">
+                    <div class="item" data-aos="fade-down">
+                        <img src="1.jpg" class="img-fluid filter Brand Design Graphic">
+                        <span><i class="fas fa-plus" data-bs-toggle="modal"
+                                data-bs-target="#portfolio-modal"></i></span>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="item" data-aos="zoom-in">
+                        <img src="2.jpg" class="img-fluid filter Brand Design Graphic">
+                        <span><i class="fas fa-plus" data-bs-toggle="modal"
+                                data-bs-target="#portfolio-modal"></i></span>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="item" data-aos="fade-down">
+                        <img src="3.webp" class="img-fluid filter Brand Design ">
+                        <span><i class="fas fa-plus" data-bs-toggle="modal"
+                                data-bs-target="#portfolio-modal"></i></span>
+                    </div>
+                </div>
+            </div>
+            <div class="row my-3">
+                <div class="col-lg-4">
+                    <div class="item" data-aos="fade-up">
+                        <img src="4.jpg" class="img-fluid filter Design ">
+                        <span><i class="fas fa-plus" data-bs-toggle="modal"
+                                data-bs-target="#portfolio-modal"></i></span>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="item" data-aos="zoom-in">
+                        <img src="5.jpg" class="img-fluid filter">
+                        <span><i class="fas fa-plus" data-bs-toggle="modal"
+                                data-bs-target="#portfolio-modal"></i></span>
+                    </div>
+                </div>
+                <div class="col-lg-4">
+                    <div class="item" data-aos="fade-up">
+                        <img src="6.jpg" class="img-fluid filter">
+                        <span><i class="fas fa-plus" data-bs-toggle="modal"
+                                data-bs-target="#portfolio-modal"></i></span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="portfolio-modal modal fade mt-5" id="portfolio-modal" aria-hidden="true" role="dialog">
+        <div class="modal-dialog mt-5" role="document">
+            <div class="modal-content text-center">
+                <div class="modal-body text-center">
+                    <div class="container py-3">
+                        <div class="row justify-content-center">
+                            <div class="col-lg-10">
+                                <img src="leaf1.jpg" class="img-fluid rounded">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="blog bg-light py-5" id="Blog">
+        <div class="container">
+            <h1 class="text-center mb-5" data-aos="slide-down">Our Blog.</h1>
+            <div class="row">
+                <div class="col-lg-4 mb-3">
+                    <div class="card">
+                        <img src="laptop1.jpg" class="img-fluid" data-aos="fade-down">
+                        <small class="fw-bold py3 px-3">WebDevelopment</small>
+                        <h5 class="fw-bold px-3 pb-4">Top Web Design Templates And Themes for Travel, Hotel and</h5>
+                        <a href="#" class="fw-bold px-3 pb-4"><u>Read More</u></a>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-3">
+                    <div class="card">
+                        <img src="laptop2.jpg" class="img-fluid" data-aos="fade-down">
+                        <small class="fw-bold py3 px-3">WebDevelopment</small>
+                        <h5 class="fw-bold px-3 pb-4">Top Web Design Templates And Themes for Travel, Hotel and</h5>
+                        <a href="#" class="fw-bold px-3 pb-4"><u>Read More</u></a>
+                    </div>
+                </div>
+                <div class="col-lg-4 mb-3">
+                    <div class="card">
+                        <img src="laptop3.jpg" class="img-fluid" data-aos="fade-down">
+                        <small class="fw-bold py3 px-3">WebDevelopment</small>
+                        <h5 class="fw-bold px-3 pb-4">Top Web Design Templates And Themes for Travel, Hotel and</h5>
+                        <a href="#" class="fw-bold px-3 pb-4"><u>Read More</u></a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+  <section class="contact py-5" id="Contact">
+        <div class="container py-5">
+            <h1 class="text-center" data-aos="flip-down">Contact Us</h1>
+            <div class="row py-5">
+                <div class="col-lg-10 mx-auto">
+                    <div class="row text-center">
+                        <div class="col-lg-4" data-aos="zoom-in">
+                            <div class="circle">
+                                <span><i class="fas fa-location-arrow"></i></span>
+                            </div>
+                            <h5>Address</h5>
+                            <p>Villupuram</p>
+                        </div>
+                        <div class="col-lg-4" data-aos="zoom-in">
+                            <div class="circle">
+                                <span><i class="fas fa-envelope"></i></span>
+                            </div>
+                            <h5>Email</h5>
+                            <p>arunap9677@gmail.com</p>
+                        </div>
+                        <div class="col-lg-4" data-aos="zoom-in">
+                            <div class="circle">
+                                <span><i class="fas fa-phone-alt"></i></span>
+                            </div>
+                            <h5>Phone</h5>
+                            <p>(+91) 7418751873</p>
+                        </div>
+                    </div>
+                </div>
+            </div> 
+
+           <div class="row">
+                <div class="col-lg-9 mx-auto">
+                    <form id="Hire" name="submit-to-google-sheet">
+                        
+                        <div class="row mb-3">
+                            <div class="col">
+                                <input id="Name" type="text" class="form-control" placeholder="Enter Name" name="Name" required>
+                            </div>
+                            <div class="col">
+                                <input id="Email" type="email" class="form-control" placeholder="Enter email" name="Email" required>
+                            </div>
+                            
+                        </div>
+                        <div class="row">
+                            <div class="col-lg-12">
+                                <textarea name="Message" id="Message" class="form-control bg-light" placeholder="Message" cols="30"
+                                    rows="10" required></textarea>
+                            </div>
+                            <button class="btn3 my-4">Submit</button>
+                        </div>
+                    </form>
+                    <span id="msg"></span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer class="py-3 text-center">
+        <p>Copy Rights 2023 @ ByArunWeb All Rights Reserved</p>
+    </footer>
+
+    <script>
+        $(document).ready(function () {
+            $(".button").click(function () {
+                var value = $(this).attr("data-filter");
+                if (value == "all") {
+                    $(".filter").show("100");
+                }
+                else {
+                    $(".filter").not("." + value).hide("1000");
+                    $(".filter").filter("." + value).show("1000");
+                }
+                $("ul .button").click(function () {
+                    (this).addClass('active').siblings().removeClass('active')
+                })
+            })
+        })
+    </script>
+
+    <script>
+        const scriptURL = 'https://script.google.com/macros/s/AKfycbybFSHTNbZapH54wzm2TLo1hfFVea4RmmgWWPxKGg85SlmWiG66kj-oRHDNLktLMB4p/exec'
+        const form = document.forms['submit-to-google-sheet']
+        const msg = document.getElementById("msg")
+        form.addEventListener('submit', e => {
+            e.preventDefault()
+            fetch(scriptURL, { method: 'POST', body: new FormData(form) })
+                .then(response => {
+                    msg.innerHTML = "Message sent successfully"
+                    setTimeout(function () {
+                        msg.innerHTML = ""
+                    }, 5000)
+                    form.reset()
+                })
+                .catch(error => console.error('Error!', error.message))
+        })
+    </script>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"
+        integrity="sha384-oBqDVmMz9ATKxIep9tiCxS/Z9fNfEXiDAYTujMAeBAsjFuCZSmKbSSUnQlmh/jp3"
+        crossorigin="anonymous"></script>
+
+    <!-- ------AOS------ -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
+    <script>
+        AOS.init({
+            offset: 200,
+            duration: 800,
+            easing: 'ease-in-sine'
+        });
+    </script>
+
+</body>
+
+</html>
