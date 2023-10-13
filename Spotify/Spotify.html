@@ -1,0 +1,1180 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Play free on mobile - Spotify - Spotify (IN)</title>
+    <link
+      rel="icon"
+      type="image/png"
+      href="https://wwwmarketing.scdn.co/img/favicon-16x16.png"
+      sizes="16x16"
+    />
+    <style>
+      *
+{
+   box-sizing: border-box;
+   margin: 0;
+   padding: 0;
+}
+@media screen and (max-width:500px) {
+    #mainSpotify
+    {
+        size-adjust: 100px;
+    }
+    
+}
+#navSection
+{
+    height: 83px;
+    width: 100%;
+    /* border: 2px solid red; */
+    background-color: black;
+}
+#navArticle
+{
+    height: 83px;
+    width: 90%;
+    /* border: 2px solid green; */
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+#navLogo svg
+{
+    height: 80px;
+    width: 130px;
+    /* border: 2px solid yellow; */
+    padding-top: 20px;
+    fill: white;
+    
+}
+#navMenu
+{
+    height: 80px;
+    width: 45%;
+    position: relative;
+    right: -220px;
+    /* border: 2px solid blue; */
+    margin: 0 auto;
+    
+}
+#navMenu ul
+{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    padding-top: 30px;
+    
+}
+#navMenu ul li
+{
+    color: white;
+}
+#navMenu ul li a
+{
+    text-decoration: none;
+    color: white;
+    font-size: 15px;
+    font-family: CircularSp,spotify-circular,Helvetica,Arial,sans-serif;
+    font-weight: 700px;
+}
+#navMenu ul li a:hover
+{
+    color: green;
+}
+#homeSection
+{
+  height: 600px;
+  width: 100%;
+  /* border: 2px solid red; */
+  background: url(https://www.scdn.co/i/free/bubbles-mobile.svg) center center / 100% 927px no-repeat, linear-gradient(-45deg, rgb(108, 14, 224) -5%, rgb(240, 55, 166)) rgb(108, 14, 224);
+}
+#homeArticle
+{
+    height: 600px;
+    width: 100%;
+    /* border: 2px solid green; */
+    margin: 0 auto;
+    display: flex;
+}
+#homeDiv
+{
+    height: 600px;
+    width: 86%;
+    /* border: 2px solid blue; */
+    display: flex;  
+    margin: 0 auto; 
+}
+#homeNav
+{
+    height: 600px;
+    width: 40%;
+    /* border: 2px solid brown; */
+    padding: 90px;
+}
+#homeNav svg
+{
+    height: 550px;
+    width: 275px;
+
+}
+#homeH
+{
+    height: 600px;
+    width: 70%;
+    /* border: 2px solid white; */
+}
+#homeDiv1 img
+{
+    height: 450px;
+    width: 250px;
+    position: relative;
+    display: flex;
+    margin-top: -500px;
+    left: 12.5px;
+    
+}
+#homeH1 
+{
+   height: 150px;
+   width: 680px;
+   /* border: 2px solid red;  */
+  display: flex;
+  padding: 5px;
+  margin-top: 180px;
+  font-size: 40px;
+  font-weight: 900px;
+  color: white;
+  font-family: Arial, Helvetica, sans-serif;
+  letter-spacing: -0.04em;
+  line-height: 1.15;
+}
+#homeDiv2
+{
+    height: 100px;
+    width: 100%;
+    /* border: 2px solid green; */
+    margin: 0 auto;
+}
+#homeDiv2 button:hover
+{
+    transform: scale(1.07);
+}
+#homeDiv2 button
+{
+   height: 60px;
+   width: 200px; 
+    /* border: 2px solid red; */
+    /* color: black; */
+    display: flex;
+    margin: 23px auto;
+    margin-left: 20px;
+    padding-left: 29px;
+    padding-top: 19px;
+    text-decoration: none;
+    border-radius: 100px;
+    font-weight: 800;
+    line-height: 20px;
+    border: 1px solid white;
+}
+#homeButton 
+{
+   height: 47px;
+   width: 180px; 
+   /* border: 2px solid yellow; */
+   background-color: white;
+   display: flex;
+   margin: 40px auto;
+   position: absolute;
+   margin-left: 15px;
+}
+#home1Section
+{
+    height: 590px;
+    width: 100%;
+    /* border: 2px solid red; */
+}
+#home1Article
+{
+    height: 590px;
+    width: 90%;
+    /* border: 2px solid green; */
+    margin: 0 auto;
+}
+#home1Div
+{
+    height: 450px;
+    width: 96%;
+    /* border: 2px solid yellow; */
+    margin: 60px auto;
+    display: flex;
+    position: relative;
+    
+}
+#home1Div1
+{
+    height: 50px;
+    width: 600px;
+    /* border: 2px solid red; */
+    margin: 0 auto;
+    display: flex;
+}
+#home1Div1 h2
+{
+    margin: auto;
+    font-size: 32px;
+    line-height: 45px;
+    letter-spacing: -0.015em;
+    font-weight: 800;
+    font-family: var(--font-family,spotify-circular),Helvetica,Arial,sans-serif;
+}
+#home1Div2
+{
+    height: 375px;
+    width: 100%;
+    /* border: 2px solid green; */
+    margin: 90px;
+    margin-left: -279px;
+    display: flex;
+    position: absolute;
+    text-decoration: none;
+    text-transform: none;
+}
+#home1Div2 ul
+{
+    height: 375px;
+    width: 100%;
+    /* border: 2px solid red; */
+    margin: 0 auto;
+    display: flex;
+    position: absolute;
+}
+#home1Div2 ul li1
+{
+    height: 375px;
+    width: 25%;
+    /* border: 2px solid blue; */
+    margin: -30px auto;
+}
+#home1Div2 ul li1 img
+{
+    /* border: 2px solid blue; */
+    display: flex;
+    margin-left: 50px;
+}
+#home1Div2 ul li2
+{
+    height: 375px;
+    width: 25%;
+    /* border: 2px solid blue; */
+    display: flex;
+    margin: -30px auto;
+}
+#home1Div2 ul li2 img
+{
+    /* border: 2px solid blue; */
+    display: flex;
+    margin-left: 50px;
+}
+#home1Div2 ul li3
+{
+    height: 375px;
+    width: 25%;
+    /* border: 2px solid blue; */
+    margin: -30px auto;
+    display: flex;
+}
+#home1Div2 ul li3 img
+{
+    /* border: 2px solid blue; */
+    display: flex;
+    margin-left: 50px;
+}
+#home1Div2 ul li4
+{
+    height: 375px;
+    width: 25%;
+    /* border: 2px solid blue; */
+    margin: -30px auto;
+    display: flex;
+}
+#home1Div2 ul li4 img
+{
+    /* border: 2px solid blue; */
+    display: flex;
+    margin-left: 50px;
+}
+#Div1
+{
+    height: 192px;
+    width: 285px;
+    /* border: 2px solid brown; */
+    color: black;
+}
+#P1 
+{
+    height: 50px;
+    width: 285px;
+    /* border: 2px solid gray; */
+    margin: 0 auto;
+    display: flex;
+    padding: 12px;
+    padding-left:40px;
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 1.3em;
+    font-family: var(--font-family,spotify-circular),Helvetica,Arial,sans-serif;
+    
+}
+#P2
+{
+    height: 140px;
+    width: 275px;
+    /* border: 2px solid gray; */
+    margin: 0 auto;
+    display: flex;
+    padding: 25px;
+    padding-left:25px;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 1.5;
+    font-family:  var(--font-family,spotify-circular),Helvetica,Arial,sans-serif;
+
+}
+#Div2
+{
+    height: 192px;
+    width: 285px;
+    /* border: 2px solid brown; */
+    color: black;
+}
+#P3
+{
+    height: 50px;
+    width: 285px;
+    /* border: 2px solid gray; */
+    padding: 25px;
+    font-weight: bold;
+    margin: 0 auto;
+    display: flex;
+    padding: 12px;
+    padding-left: 40px;
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 1.3em;
+    font-family: var(--font-family,spotify-circular),Helvetica,Arial,sans-serif;
+
+}
+#P4
+{
+    height: 140px;
+    width: 285px;
+    /* border: 2px solid gray; */
+    padding: 25px;
+    font-weight: bold;
+    margin: 0 auto;
+    display: flex;
+    padding: 25px;
+    padding-left: 40px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    font-family:  var(--font-family,spotify-circular),Helvetica,Arial,sans-serif;
+
+}
+#Div3
+{
+    height: 192px;
+    width: 285px;
+    /* border: 2px solid brown; */
+    color: black;
+}
+#P5
+{
+    height: 50px;
+    width: 285px;
+    /* border: 2px solid gray; */
+    margin: 0 auto;
+    display: flex;
+    padding: 12px;
+    padding-left: 70px;
+    font-weight: bold;
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 1.3em;
+    font-family: var(--font-family,spotify-circular),Helvetica,Arial,sans-serif;
+}
+#P6
+{
+    height: 140px;
+    width: 285px;
+    /* border: 2px solid gray; */
+    margin: 0 auto;
+    display: flex;
+    padding: 25px;
+    padding-left: 40px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    font-family:  var(--font-family,spotify-circular),Helvetica,Arial,sans-serif;
+
+}
+#Div4
+{
+    height: 192px;
+    width: 285px;
+    /* border: 2px solid brown; */
+    color: black;
+}
+#P7
+{
+    height: 50px;
+    width: 285px;
+    /* border: 2px solid gray; */
+    margin: 0 auto;
+    display: flex;
+    padding: 12px;
+    padding-left: 52px;
+    font-weight: bold;
+    font-weight: bold;
+    font-size: 21px;
+    line-height: 1.3em;
+    font-family: var(--font-family,spotify-circular),Helvetica,Arial,sans-serif;
+}
+#P8
+{
+    height: 140px;
+    width: 285px;
+    /* border: 2px solid gray; */
+    margin: 0 auto;
+    display: flex;
+    padding: 25px;
+    padding-left: 40px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 1.5;
+    font-family:  var(--font-family,spotify-circular),Helvetica,Arial,sans-serif;
+}
+#home3Section
+{
+    height: 500px;
+    width: 100%;
+    /* border: 2px solid red; */
+
+}
+#home3Article
+{
+    height: 500px;
+    width: 100%;
+    /* border: 2px solid black; */
+    margin: 0 auto;
+    display: flex;
+    background: linear-gradient(rgb(176, 35, 194) 15%, rgb(96, 11, 231));   
+}
+#home3Div1
+{
+    height: 500px;
+    width: 100%;
+    /* border: 2px solid red; */
+    color: white;
+}
+#home3Div2
+{
+    height: 250px;
+    width: 100%;
+    /* border: 2px solid blue; */
+    display: flex;
+}
+#home3Div3
+{
+    height: 250px;
+    width: 100%;
+    /* border: 2px solid yellow; */
+}
+#home3Div2 h2
+{
+    height: 65px;
+    width: 96%;
+    /* border: 2px solid pink; */
+    margin: 185px auto;
+    padding: 5px;
+    padding-left: 540px;
+    font-size: 48px;
+    
+    
+}
+#home3Div3 h3
+{
+    height: 70px;
+    width: 96%;
+    /* border: 2px solid hotpink; */
+    margin: 0 auto;
+    padding: 5px;
+    padding-left: 420px;
+    font-size: 48px;
+
+}
+#home4Section
+{
+    height: 600px;
+    width: 100%;
+    /* border: 2px solid red; */
+    margin: 0 auto;
+}
+#home4Article
+{
+    height: 600px;
+    width: 92%;
+    /* border: 2px solid black; */
+    margin: 0 auto;
+}
+h2
+{
+  height: 60px;
+  width: 500px;
+  /* border: 2px solid red; */
+  margin: 20px auto;
+  padding-top: 2px;
+  padding-left: 120px;
+  font-size: var(--headline-font-size,40px);
+  line-height: var(--headline-line-height,46px);
+  letter-spacing: -0.015em;
+  font-weight: 900;
+  font-family: var(--font-family,spotify-circular),Helvetica,Arial,sans-serif;
+}
+ul details
+{
+    /* border: 2px solid black; */
+    margin: 3px auto;
+    padding: 20px;
+    padding-left: 50px;
+    font-size: 18px;
+    font-weight: 900;
+}
+ul
+{
+  text-decoration: none;
+  text-transform: none;
+  list-style: none;
+  padding-top: 30px;
+}
+#home4navDivLi
+{
+    height: 1px;
+    width: 100%;
+    border: 0.7px solid gray;
+}
+#home4navDivLi1
+{
+    height: 1px;
+    width: 100%;
+    border: 0.7px solid gray;
+}
+#home4navDivLi2
+{
+    height: 1px;
+    width: 100%;
+    border: 0.7px solid gray;
+}
+#home5Section
+{
+    height: 450px;
+    width: 100%;
+    /* border: 2px solid red; */
+    display: flex;
+    background: url(https://www.scdn.co/i/free/lets-play.svg) left -10px bottom -160px / 100% 1114px no-repeat, linear-gradient(-45deg, rgb(108, 14, 224) 16%, rgb(240, 55, 166)) rgb(108, 14, 224);
+    background-position: left -10px bottom -160px;
+    background-repeat: no-repeat;
+}
+#home5Article
+{
+    height: 200px;
+    width: 85%;
+        /* border: 2px solid blue; */
+    margin:90px auto;
+    margin-top: 130px;
+}
+#home5Div
+{
+    height: 100px;
+    width: 100%;
+    /* border: 2px solid black; */
+    margin: 0 auto;
+    color: white;
+}
+#home5Div3
+{
+    height: 100px;
+    width: 100%;
+    /* border: 2px solid green; */
+}
+#home5Div3 button:hover
+{
+    transform: scale(1.07);
+}
+#home5Div h2
+{
+    height: 75px;
+    width: 900px;
+    /* border: 2px solid yellow; */
+    margin: 10px auto;
+    display: flex;
+    font-size: 70px;     
+    font-family: var(--font-family,spotify-circular),Helvetica,Arial,sans-serif;;
+}
+#home5Div3 #home5Button
+{
+    height: 60px;
+    width: 240px;
+    /* border: 2px solid yellow; */
+    margin: 10px auto;
+    color: black;
+    margin-left: 430px;
+    background-color: white;
+    text-transform: uppercase;
+    border-radius: 100px;
+    font-size: 16px;
+    line-height: 20px;
+     font-weight: 750;
+     border: 1px solid white;
+}
+#home5Div1 span
+{
+    margin: 10px auto;
+    display: flex;
+    padding-left: 30px;
+    padding-top: 15px;
+    text-decoration: none;
+    text-transform: none;
+}
+#home6Footer
+{
+    height: 600px;
+    width: 100%;
+    /* border: 2px solid red;  */
+    background-color: black;
+
+}
+#home6Article
+{
+    height: 600px;
+    width: 100%;
+    /* border: 2px solid blue; */
+    display: flex;
+    
+}
+#home6Div
+{
+    height: 400px;
+    width: 88%;
+    /* border: 2px solid red; */
+    margin: 50px auto;
+}
+#home6Div ulF
+{
+    height: 400px;
+    width: 100%;
+    /* border: 2px solid yellow; */
+    display: flex;
+    /* background-color: black; */
+    font-size: 16px;
+    font-family: CircularSp,spotify-circular,Helvetica,Arial,sans-serif;
+    font-weight: 400;
+    
+}
+#home6Div1
+{
+    height: 400px;
+    width: 20%;
+    /* border: 2px solid blue; */
+    display: flex;
+    fill: white;
+}
+#home6Div1 svg
+{
+    height: 80px;
+    width: 200px;
+    /* border: 2px solid red; */
+    margin: 20px auto;
+}
+#home6Div2
+{
+    height: 400px;
+    width: 50%;
+    /* border: 2px solid blue; */
+    display: flex;
+    color: white;
+}
+#home6Divfooter
+{
+    height: 400px;
+    width: 33.3%;
+    /* border: 2px solid brown; */
+}
+dt
+{
+    height: 50px;
+    width: 100%;
+    /* border: 2px solid black; */
+    margin: 10px auto;
+    padding: 14px;
+    padding-left: 50px;
+    
+}
+#home6Divfooter1
+{
+    height: 400px;
+    width: 33.3%;
+    /* border: 2px solid brown; */
+}
+#home6Divfooter2
+{
+    height: 400px;
+    width: 33.4%;
+    /* border: 2px solid brown; */
+}
+#home6Div3
+{
+    height: 400px;
+    width: 30%;
+    /* border: 2px solid blue; */
+    display: flex;
+}
+#home6DivFooter
+{
+    height: 40px;
+    width: 100%;
+    /* border: 2px solid yellow; */
+    margin: 20px auto;
+    color: white;
+}
+#home6DivFooter :hover
+{
+    color: green;
+}
+#home6FooterNavDiv1
+{
+    height: 400px;
+    width: 220px;
+    /* border: 2px solid green; */
+    margin: 0 auto;
+    margin-right: 1px;
+}
+#footerdivicon
+{
+    margin: 0px 15px 0 auto;
+    padding: 24px;
+}   
+#footerdivicon ul
+{
+    height: 54px;
+    width: 192px;
+    margin: 20px 0 0;
+    padding: 0;
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    display: flex;   
+}
+
+#footerdivicon li
+{
+    height: 54px;
+    width: 54px;
+    margin-right: 15px;
+    display: inline-block;
+    text-decoration: none;
+    text-transform: none;
+    text-align: -webkit-match-parent;
+}
+#footerdivicon a
+{
+    height: 54px;
+    width: 54px;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    overflow: hidden;
+    border-radius: 50%;
+    background-color: #222326;
+    color: #fff;
+}
+#footerdiviconspan1
+{
+    background:no-repeat url(./insta.svg),currentColor;
+    display: block;
+    width: 24px;
+    height: 24px;
+}
+#footerdiviconspan2
+{   
+    background:no-repeat url(./twit.svg),currentColor;
+    display: block;
+    width: 24px;
+    height: 24px;
+}
+#footerdiviconspan3
+{   
+    background:no-repeat url(./facc.svg),currentColor;
+    display: block;
+    width: 24px;
+    height: 24px;
+}
+#footerdiviconspan1:hover
+{
+    color: #1ed760;
+}
+#footerdiviconspan2:hover
+{
+    color: #1ed760;
+}
+#footerdiviconspan3:hover
+{
+    color: #1ed760;
+}
+
+#home6Div1FooterDiv1
+{
+    height: 38px;
+    width: 200px;
+    /* border: 2px solid rebeccapurple ; */
+    margin: 0 auto;
+    margin-right: 20px;
+    padding: 7px;
+    padding-left: 30px;
+}
+#footersubdiv3
+{
+    height: 70px;
+    width: 100%;
+    /* border: 2px solid deeppink; */
+    margin: -20px auto;
+    fill: white;
+    display: flex;
+    color: white;
+}
+#footersubdiv3 div
+{
+    display: flex;
+    font-size: 16px;
+    font-family: Helvetica,Arial,sans-serif;
+    font-weight: 400;
+}
+#divfooternav
+{
+    height: 10px;
+    width: 150px;
+    /* border: 2px solid blue; */
+}
+#footersubdiv3 ul
+{
+    list-style-type: disc;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+#footersubdiv3 li
+{
+    margin-right: 24px;
+    list-style: none;
+    display: inline-block;
+    line-height: normal;
+    letter-spacing: 0;
+    text-align: -webkit-match-parent;
+}
+#footersubdiv3 li div
+{
+    display: flex;
+}
+#footersubdiv3 li div a
+{
+    color: #919496;
+    font-size: 12px;
+    padding-bottom: 20px;
+    display: flex;
+    flex-shrink: 0;
+    align-items: center;
+    white-space: nowrap;
+    text-decoration: none;
+}
+#home6Div a:hover
+{
+    color: #1ed760;
+}
+#footersubdiv3 span
+{
+    margin: -2px 30px 0 auto;
+    padding: 1em 0;
+    font-size: 13px;
+    flex-shrink: 0;
+    color: #919496;
+    font-family: CircularSp,spotify-circular,Helvetica,Arial,sans-serif;
+    font-weight: 400;
+}
+   </style>
+  </head>
+  <body>
+   <div id="mainSpotify">
+     <section id="navSection">
+      <article id="navArticle">
+        <div id="navLogo">
+          <a href="#">
+        <svg viewBox="0 0 63 20" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMin meet"><g fill-rule="evenodd" class="svelte-1gcdbl9"><path d="M61.842 9.506a1.02 1.02 0 0 1-1.023-1.024c0-.562.453-1.03 1.029-1.03a1.02 1.02 0 0 1 1.023 1.024 1.03 1.03 0 0 1-1.029 1.03m.006-1.952a.915.915 0 0 0-.922.928c0 .51.394.921.916.921a.916.916 0 0 0 .922-.927.908.908 0 0 0-.916-.922m.226 1.027l.29.406h-.244l-.26-.372h-.225v.372h-.204V7.912h.48c.249 0 .413.128.413.343 0 .176-.102.284-.25.326m-.172-.485h-.267v.34h.267c.133 0 .212-.065.212-.17 0-.11-.08-.17-.212-.17m-12.804-3.52a1.043 1.043 0 1 0-.001 2.086 1.043 1.043 0 0 0 0-2.087m.72 2.89h-1.454a.107.107 0 0 0-.106.107v6.346c0 .06.047.107.106.107h1.455a.107.107 0 0 0 .107-.107V7.572a.107.107 0 0 0-.107-.107m3.233.006v-.2c0-.592.227-.856.736-.856.303 0 .546.06.82.152a.106.106 0 0 0 .14-.102V5.24a.107.107 0 0 0-.076-.102 3.993 3.993 0 0 0-1.21-.174c-1.343 0-2.053.757-2.053 2.188v.308h-.699a.107.107 0 0 0-.107.106v1.257c0 .059.048.107.107.107h.699v4.99c0 .058.047.106.106.106h1.455a.107.107 0 0 0 .106-.107v-4.99h1.358l2.081 4.99c-.236.523-.468.628-.785.628-.257 0-.527-.077-.803-.228a.109.109 0 0 0-.084-.008.106.106 0 0 0-.063.058l-.493 1.081a.106.106 0 0 0 .045.138c.515.279.98.398 1.554.398 1.074 0 1.668-.5 2.191-1.847L60.6 7.617a.106.106 0 0 0-.099-.146h-1.514a.107.107 0 0 0-.1.072l-1.552 4.431-1.7-4.434a.106.106 0 0 0-.099-.069h-2.485m-5.577-.006h-1.6V5.828a.106.106 0 0 0-.107-.106h-1.455a.107.107 0 0 0-.106.106v1.637h-.7a.106.106 0 0 0-.106.107v1.25c0 .059.048.107.106.107h.7v3.234c0 1.308.65 1.97 1.934 1.97.522 0 .954-.107 1.362-.338a.106.106 0 0 0 .054-.093v-1.19a.106.106 0 0 0-.154-.096c-.28.141-.551.206-.854.206-.467 0-.675-.211-.675-.686V8.929h1.6a.106.106 0 0 0 .107-.107v-1.25a.106.106 0 0 0-.106-.107m-7.671-.133c-1.96 0-3.497 1.51-3.497 3.437 0 1.907 1.526 3.4 3.473 3.4 1.967 0 3.508-1.504 3.508-3.424 0-1.914-1.53-3.413-3.484-3.413m0 5.362c-1.043 0-1.83-.838-1.83-1.95 0-1.115.76-1.924 1.806-1.924 1.05 0 1.84.838 1.84 1.95 0 1.115-.763 1.924-1.816 1.924m-7.014-5.362c-.82 0-1.492.323-2.046.984v-.744a.107.107 0 0 0-.106-.107h-1.455a.107.107 0 0 0-.106.107v8.27c0 .058.048.106.106.106h1.455a.107.107 0 0 0 .106-.106v-2.61c.555.621 1.227.925 2.046.925 1.522 0 3.063-1.172 3.063-3.412s-1.54-3.413-3.063-3.413m1.372 3.413c0 1.14-.703 1.937-1.709 1.937-.995 0-1.745-.833-1.745-1.937s.75-1.937 1.745-1.937c.99 0 1.71.814 1.71 1.937m-8.437-1.81c-1.624-.388-1.913-.66-1.913-1.231 0-.54.508-.903 1.264-.903.732 0 1.459.275 2.22.843a.107.107 0 0 0 .15-.023l.794-1.119a.107.107 0 0 0-.02-.144c-.906-.728-1.927-1.081-3.12-1.081-1.755 0-2.98 1.052-2.98 2.559 0 1.615 1.057 2.187 2.884 2.628 1.554.358 1.817.658 1.817 1.195 0 .594-.53.963-1.385.963-.948 0-1.721-.32-2.587-1.068a.11.11 0 0 0-.078-.026.105.105 0 0 0-.073.038l-.89 1.058a.105.105 0 0 0 .011.148 5.303 5.303 0 0 0 3.581 1.373c1.89 0 3.112-1.033 3.112-2.631 0-1.351-.807-2.098-2.787-2.58M9.507.305a9.41 9.41 0 1 0 0 18.82 9.41 9.41 0 0 0 0-18.82m4.316 13.572a.586.586 0 0 1-.807.195c-2.21-1.35-4.99-1.655-8.266-.907a.586.586 0 1 1-.261-1.143c3.584-.82 6.659-.467 9.139 1.049.276.169.363.53.195.806m1.15-2.562a.734.734 0 0 1-1.008.242c-2.529-1.555-6.385-2.005-9.377-1.097a.735.735 0 0 1-.426-1.404c3.418-1.037 7.666-.534 10.57 1.25a.734.734 0 0 1 .242 1.01m.1-2.669C12.04 6.846 7.036 6.68 4.141 7.56a.88.88 0 1 1-.511-1.684c3.323-1.01 8.849-.814 12.34 1.258a.88.88 0 0 1-.898 1.514"></path></g></svg>
+        </div>
+      </a>
+        <div id="navMenu">
+          <ul>
+            <li><a href="">Premium</a></li>
+            <li><a href="">Support</a></li>
+            <li><a href="">Download</a></li>
+            <li><a href="">Sign up</a></li>
+            <li>|</li>
+            <li><a href="">Log in</a></li>
+          </ul>
+        </div>
+      </article>
+    </section>
+    <section id="homeSection">
+      <artcile id="homeArticle">
+        <div id="homeDiv">
+            <div id="homeNav">
+              <a href="#">
+                <svg viewBox="0 0 290 590.58" aria-hidden="true" focusable="false" class="sc-jldrjA cHedBP">
+                  <path d="M36.28,0H253.72A36.28,36.28,0,0,1,290,36.27v518a36.28,36.28,0,0,1-36.28,36.27H36.28A36.28,36.28,0,0,1,0,554.31v-518A36.28,36.28,0,0,1,36.28,0Z" fill="#fff">
+                  </path>
+                  <path d="M125,25h40a3,3,0,0,1,0,6H125a3,3,0,0,1,0-6Z" fill="#231f20"></path>
+                </svg>             
+              <div id="homeDiv1">
+                <img src="./spoty.jpg" alt="">
+              </a>
+            </div>
+          </div>
+          <div id="homeH">
+            <div id="homeH1">
+            <h1>Play millions of songs and podcasts, for free.</h1>
+            </div>
+            <div id="homeDiv2">
+              <a href="/in-en/signup" class="Button">
+                <div>
+                  <button id="homeButton">GET SPOTIFY FREE</button>
+              </div>
+              <div class="ButtonFocus">
+                </div>
+               </a>
+              </div>
+             </div>
+            </div>
+           </div>
+          </div>
+        </div>
+      </artcile>
+    </section>
+    <section id="home1Section">
+      <article id="home1Article">
+        <div id="home1Div">
+          <div id="home1Div1">
+            <h2 class="Type__TypeElement-goli3j-0 clxiCC sc-gtsrHT juhBur">Why Spotify?</h2>
+            <div id="home1Div2">
+              <ul>
+              <li1><a>
+                <img src="./1st img.png" alt="">
+                <div id="Div1"><p id="P1">Play your favorites.</p>
+               <center> <p id="P2">Listen to the songs you love, and discover new music and podcasts.</p></center>
+              </div></a></li1>
+            <li2><a>
+              <img src="./2nd img.png" alt="">
+              <div id="Div2"><p id="P3">Playlists made easy.</p>
+             <center> <p id="P4">We'll help you make playlists. Or enjoy playlists made by music experts.</p></center>
+            </div></a></li2>
+            <li3><a>
+              <img src="./3rd img.png" alt="">
+              <div id="Div3"><p id="P5">Make it yours.</p>
+             <center> <p id="P6">Tell us what you like, and we'll recommend music for you.</p></center>
+            </div></a></li3>
+            <li4><a>
+              <img src="./4th img.png" alt="">
+              <div id="Div4"><p id="P7">Save mobile data.</p>
+             <center> <p id="P8">To use less data when you play music, turn on Data Saver in Settings.</p></center>
+            </div></a></li4>            
+              </ul>          
+            </div>
+          </div>
+        </div>         
+      </article>
+    </section>
+    <section id="home3Section">
+      <article id="home3Article">
+        <div id="home3Div1">
+          <div id="home3Div2">
+           <h2>It's free.</h2>
+          </div>
+          <div id="home3Div3">
+          <h3>No credit card required.</h3>
+          </div>
+        </div>        
+      </article>
+    </section>
+    <section id="home4Section">
+      <article id="home4Article">
+        <h2>Got questions?</h2>
+        <ul>
+          <li>
+            <details>
+              <summary>
+                <div>How do I create a playlist?</div>
+                </summary>
+                <p>Playlists are a great way to save collections of music, either for your own listening or to share.<br><br>To create one:<br><br>1.  Tap Your Library.<br>2. Tap <strong>CREATE</strong>.<br>3. Give your playlist a name.<br>4. Start adding songs (and we'll help you along).</p>
+              </details>
+            </li>
+            <div id="home4navDivLi"></div>
+          <li><details>
+            <summary>
+              <div>How do I activate Data Saver mode?</div>
+              </summary>
+              <p>1. Tap <strong>Home</strong>.<br>2. Tap <strong>Settings</strong>.<br>3. Tap <strong>Data Saver</strong>.<br>4. Switch on Data Saver.</p>
+          </details>
+        </li>
+        <div id="home4navDivLi1"></div>
+          <li>
+            <details>
+              <summary>
+                <div>Is it only possible to shuffle play music?</div>
+                </summary>
+                <p>Any playlist with the shuffle icon will play on shuffle.<br><br>Some playlists won't have the shuffle icon, so you can tap any song to play it.</p>
+          </details>
+        </li>
+        <div id="home4navDivLi2"></div>
+          <li>
+            <details>
+              <summary>
+                <div>Where can I find Podcasts?</div>
+                </summary>
+                <p>Tap <strong>Search</strong>. Under <strong>Browse All</strong>, tap Podcasts.</p>
+          </details>
+        </li>
+        </ul>
+       
+      </article>
+    </section>
+    <section id="home5Section">
+      <article id="home5Article">
+        <div id="home5Div">
+          <h2>Ready? Let’s play.</h2>
+        </div>
+        <div id="home5Div3">
+          <a href="/in-en/signup" class="Button">
+            <div>
+              <button id="home5Button">GET SPOTIFY FREE</button>
+          </div>
+          <div class="ButtonFocus">
+            </div>
+            </a>
+        </div>
+      </article>
+    </section>
+    <footer id="home6Footer">
+      <article id="home6Article">
+        <div id="home6Div">
+          <ulF>
+          <div id="home6Div1">
+            <svg viewBox="0 0 63 20" xmlns="http://www.w3.org/2000/svg" preserveAspectRatio="xMidYMin meet"><g fill-rule="evenodd" class="svelte-1gcdbl9"><path d="M61.842 9.506a1.02 1.02 0 0 1-1.023-1.024c0-.562.453-1.03 1.029-1.03a1.02 1.02 0 0 1 1.023 1.024 1.03 1.03 0 0 1-1.029 1.03m.006-1.952a.915.915 0 0 0-.922.928c0 .51.394.921.916.921a.916.916 0 0 0 .922-.927.908.908 0 0 0-.916-.922m.226 1.027l.29.406h-.244l-.26-.372h-.225v.372h-.204V7.912h.48c.249 0 .413.128.413.343 0 .176-.102.284-.25.326m-.172-.485h-.267v.34h.267c.133 0 .212-.065.212-.17 0-.11-.08-.17-.212-.17m-12.804-3.52a1.043 1.043 0 1 0-.001 2.086 1.043 1.043 0 0 0 0-2.087m.72 2.89h-1.454a.107.107 0 0 0-.106.107v6.346c0 .06.047.107.106.107h1.455a.107.107 0 0 0 .107-.107V7.572a.107.107 0 0 0-.107-.107m3.233.006v-.2c0-.592.227-.856.736-.856.303 0 .546.06.82.152a.106.106 0 0 0 .14-.102V5.24a.107.107 0 0 0-.076-.102 3.993 3.993 0 0 0-1.21-.174c-1.343 0-2.053.757-2.053 2.188v.308h-.699a.107.107 0 0 0-.107.106v1.257c0 .059.048.107.107.107h.699v4.99c0 .058.047.106.106.106h1.455a.107.107 0 0 0 .106-.107v-4.99h1.358l2.081 4.99c-.236.523-.468.628-.785.628-.257 0-.527-.077-.803-.228a.109.109 0 0 0-.084-.008.106.106 0 0 0-.063.058l-.493 1.081a.106.106 0 0 0 .045.138c.515.279.98.398 1.554.398 1.074 0 1.668-.5 2.191-1.847L60.6 7.617a.106.106 0 0 0-.099-.146h-1.514a.107.107 0 0 0-.1.072l-1.552 4.431-1.7-4.434a.106.106 0 0 0-.099-.069h-2.485m-5.577-.006h-1.6V5.828a.106.106 0 0 0-.107-.106h-1.455a.107.107 0 0 0-.106.106v1.637h-.7a.106.106 0 0 0-.106.107v1.25c0 .059.048.107.106.107h.7v3.234c0 1.308.65 1.97 1.934 1.97.522 0 .954-.107 1.362-.338a.106.106 0 0 0 .054-.093v-1.19a.106.106 0 0 0-.154-.096c-.28.141-.551.206-.854.206-.467 0-.675-.211-.675-.686V8.929h1.6a.106.106 0 0 0 .107-.107v-1.25a.106.106 0 0 0-.106-.107m-7.671-.133c-1.96 0-3.497 1.51-3.497 3.437 0 1.907 1.526 3.4 3.473 3.4 1.967 0 3.508-1.504 3.508-3.424 0-1.914-1.53-3.413-3.484-3.413m0 5.362c-1.043 0-1.83-.838-1.83-1.95 0-1.115.76-1.924 1.806-1.924 1.05 0 1.84.838 1.84 1.95 0 1.115-.763 1.924-1.816 1.924m-7.014-5.362c-.82 0-1.492.323-2.046.984v-.744a.107.107 0 0 0-.106-.107h-1.455a.107.107 0 0 0-.106.107v8.27c0 .058.048.106.106.106h1.455a.107.107 0 0 0 .106-.106v-2.61c.555.621 1.227.925 2.046.925 1.522 0 3.063-1.172 3.063-3.412s-1.54-3.413-3.063-3.413m1.372 3.413c0 1.14-.703 1.937-1.709 1.937-.995 0-1.745-.833-1.745-1.937s.75-1.937 1.745-1.937c.99 0 1.71.814 1.71 1.937m-8.437-1.81c-1.624-.388-1.913-.66-1.913-1.231 0-.54.508-.903 1.264-.903.732 0 1.459.275 2.22.843a.107.107 0 0 0 .15-.023l.794-1.119a.107.107 0 0 0-.02-.144c-.906-.728-1.927-1.081-3.12-1.081-1.755 0-2.98 1.052-2.98 2.559 0 1.615 1.057 2.187 2.884 2.628 1.554.358 1.817.658 1.817 1.195 0 .594-.53.963-1.385.963-.948 0-1.721-.32-2.587-1.068a.11.11 0 0 0-.078-.026.105.105 0 0 0-.073.038l-.89 1.058a.105.105 0 0 0 .011.148 5.303 5.303 0 0 0 3.581 1.373c1.89 0 3.112-1.033 3.112-2.631 0-1.351-.807-2.098-2.787-2.58M9.507.305a9.41 9.41 0 1 0 0 18.82 9.41 9.41 0 0 0 0-18.82m4.316 13.572a.586.586 0 0 1-.807.195c-2.21-1.35-4.99-1.655-8.266-.907a.586.586 0 1 1-.261-1.143c3.584-.82 6.659-.467 9.139 1.049.276.169.363.53.195.806m1.15-2.562a.734.734 0 0 1-1.008.242c-2.529-1.555-6.385-2.005-9.377-1.097a.735.735 0 0 1-.426-1.404c3.418-1.037 7.666-.534 10.57 1.25a.734.734 0 0 1 .242 1.01m.1-2.669C12.04 6.846 7.036 6.68 4.141 7.56a.88.88 0 1 1-.511-1.684c3.323-1.01 8.849-.814 12.34 1.258a.88.88 0 0 1-.898 1.514"></path></g></svg>
+          </div>
+          <div id="home6Div2">
+            <div id="home6Divfooter">
+              <dt>Company</dt>
+              <dt><a>About</a></dt>
+              <dt><a>Jobs</a></dt>
+              <dt><a>For the Record</a></dt>
+            </div>
+            <div id="home6Divfooter1">
+              <dt>Communities</dt>
+            <dt><a>For Artists</a></dt>
+            <dt><a>Developers</a></dt>
+            <dt><a>Advertising</a></dt>
+            <dt><a>Investors</a></dt>
+            <dt><a>Vendors</a></dt>
+          </div>
+           
+            
+          <div id="home6Divfooter2">
+             <dt>Useful links</dt>
+             <dt><a>Support</a></dt>
+             <dt><a>Web Player</a></dt>
+             <dt><a>Free Mobile App</a></dt>
+          </div>   
+          </div>
+          
+          <div id="home6Div3">
+            <div id="home6FooterNavDiv1">
+              <div id="footerdivicon">
+                <ul>
+                    <li>
+                            <a href="https://instagram.com/spotify" title="Instagram"  target="_blank" rel="noopener noreferrer">
+                                <span id="footerdiviconspan1" role="img" aria-label="Instagram" ></span>
+                            </a>
+                    </li>
+                    <li>
+                        <a href="https://twitter.com/spotify" title="Twitter"  target="_blank" rel="noopener noreferrer">
+                            <span id="footerdiviconspan2" role="img" aria-label="Twitter" ></span>
+                        </a>
+                    </li>
+                    <li>
+                        <a href="https://www.facebook.com/Spotify" title="Facebook"  target="_blank" rel="noopener noreferrer">
+                            <span id="footerdiviconspan3" role="img" aria-label="Facebook"></span>
+                        </a>
+                    </li>
+                </ul>
+            </div>
+
+            </div>
+            </div>
+        </ulF>
+        <div id="home6DivFooter">
+         <div id="home6Div1FooterDiv1">
+          <svg width="12" height="13" viewBox="0 0 12 13" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" focusable="false" class="svelte-184rsfv"><path d="M6 0.624023C8.07255 0.624023 9.90309 1.68041 10.9815 3.28299C10.9819 3.28367 10.9822 3.28403 10.9825 3.28438C11.0029 3.30998 11.0209 3.33677 11.0363 3.36446C11.6453 4.30352 12 5.42315 12 6.62402C12 9.92265 9.32436 12.6079 6.02962 12.624C6.02732 12.6241 6.02495 12.6241 6.02258 12.6241L6 12.624C2.69149 12.624 0 9.93253 0 6.62402C0 3.31571 2.69149 0.624023 6 0.624023ZM6 1.78528C5.80411 1.78528 5.61089 1.79698 5.42102 1.81972C5.39755 1.91375 5.34896 2.0023 5.2765 2.07641L3.75157 3.63714C3.64024 3.75103 3.48978 3.812 3.33616 3.812C3.26752 3.812 3.19848 3.7998 3.1318 3.77483C2.91623 3.69359 2.76891 3.49277 2.75652 3.26265L2.74444 3.04725C1.77228 3.93289 1.16125 5.20844 1.16125 6.62402C1.16125 6.90513 1.18535 7.1807 1.23158 7.44881L2.11909 8.18538C2.12814 8.19266 2.13699 8.20053 2.14564 8.20859L2.91981 8.93437C2.99003 9.00007 3.04274 9.08228 3.07323 9.17374L3.37633 10.0793L3.83343 10.3016H4.86133C5.01514 10.3016 5.16285 10.3625 5.27182 10.4715L6.25621 11.4561C8.80567 11.3224 10.8387 9.20617 10.8387 6.62402C10.8387 5.8726 10.6666 5.16063 10.3596 4.52549L9.45716 5.24616L9.62455 5.6122C9.65956 5.68812 9.67726 5.77053 9.67726 5.85393V6.60784C9.67726 6.78014 9.60075 6.94358 9.46857 7.05393C9.3362 7.16407 9.16154 7.2103 8.99219 7.17902L8.05556 7.00751L8.52643 8.28855C8.58347 8.44354 8.57167 8.61544 8.49417 8.76139L7.67162 10.3097C7.58211 10.4783 7.41628 10.5907 7.22969 10.6136L7.15866 10.6179C6.94387 10.6179 6.74659 10.4991 6.64589 10.3093L6.25231 9.56742C6.24563 9.55444 6.23913 9.54126 6.23323 9.52788L5.91027 8.78833L5.5222 8.25412L4.15443 8.44118C4.0551 8.45475 3.9538 8.44255 3.86057 8.40518L2.68811 7.93765C2.46526 7.84855 2.3201 7.632 2.32244 7.39204L2.33879 5.84783C2.34095 5.65035 2.44304 5.46763 2.61022 5.3624L4.57554 4.12641C4.81058 3.97869 5.11781 4.01783 5.30801 4.22062L5.95905 4.91395L6.7818 5.23062L7.05303 5.13365L5.90181 3.48933C5.77849 3.3131 5.76256 3.08317 5.86051 2.89179L6.41732 1.80311C6.27976 1.7913 6.14057 1.78528 6 1.78528Z" fill="#8F8F8F"></path></svg> India (English)</div>
+        </div>
+        <div id="home6DivFooter1"> 
+          <div id="footersubdiv3">
+            <ul style="margin-top: 0;">
+                <li>
+                    <div>
+                        <a href="">Legal</a>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <a href="">Privacy Center</a>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <a href="">Privacy Policy</a>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <a href="">Cookies</a>
+                    </div>
+                </li>
+                <li>
+                    <div>
+                        <a href="">About Ads</a>
+                    </div>
+                </li>
+            </ul>
+            <span id="divfooternav">© 2023 Spotify AB</span>
+        
+          </div>
+          </div>
+      </article>
+    </footer>
+  </div>
+  </body>
+</html>
